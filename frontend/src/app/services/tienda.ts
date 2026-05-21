@@ -9,7 +9,7 @@ import { Cd } from '../models/cd.model';
 })
 export class TiendaService {
 
-  private apiUrl = '/api/tiendas';
+  private apiUrl = 'http://localhost:8080/api/tiendas';
 
   constructor(private http: HttpClient) {}
 

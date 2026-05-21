@@ -8,7 +8,7 @@ import { Cd, CrearCdRequest } from '../models/cd.model';
 })
 export class CdService {
 
-  private apiUrl = '/api/cds';
+  private apiUrl = 'http://localhost:8080/api/cds';
 
   constructor(private http: HttpClient) {}
 
