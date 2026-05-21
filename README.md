@@ -1,4 +1,4 @@
-# 🎵 SuperBrosMusicGallery — Proyecto FP Dual NTT Data
+SuperBrosMusicGallery — Proyecto FP Dual NTT Data
 
 Aplicación web para la gestión de tiendas de música y su catálogo de CDs.
 
@@ -6,7 +6,7 @@ Desarrollada con **Angular 21** en el frontend y **Spring Boot** en el backend, 
 
 ---
 
-## 📋 Requisitos previos
+## Requisitos previos
 
 Asegúrate de tener instalado lo siguiente antes de ejecutar el proyecto:
 
@@ -25,7 +25,7 @@ npm install -g @angular/cli
 
 ---
 
-## 🗂️ Estructura del proyecto
+## Estructura del proyecto
 
 ```
 SuperBrosMusicGallery/
@@ -36,7 +36,7 @@ SuperBrosMusicGallery/
 
 ---
 
-## 🚀 Cómo ejecutar el proyecto
+## Cómo ejecutar el proyecto
 
 ### 1. Clonar el repositorio
 
@@ -72,7 +72,7 @@ La aplicación estará disponible en `http://localhost:4200`.
 
 ---
 
-## 🗄️ Base de datos
+## Base de datos
 
 Se utiliza **H2 en memoria**. Los datos se cargan automáticamente desde `backend/src/main/resources/data.sql` al arrancar.
 
@@ -85,11 +85,11 @@ Para acceder a la consola de H2:
    - **Password:** (déjalo vacío)
 3. Haz clic en **Connect**
 
-> ⚠️ Los datos se pierden al parar el backend. Al volver a arrancar se cargan de nuevo automáticamente.
+> Los datos se pierden al parar el backend. Al volver a arrancar se cargan de nuevo automáticamente.
 
 ---
 
-## 🔌 Endpoints de la API
+## Endpoints de la API
 
 Con el backend corriendo puedes probar los endpoints directamente en el navegador:
 
@@ -112,7 +112,7 @@ Con el backend corriendo puedes probar los endpoints directamente en el navegado
 
 ---
 
-## 🧰 Tecnologías utilizadas
+## Tecnologías utilizadas
 
 **Backend**
 - Java 21
@@ -132,7 +132,7 @@ Con el backend corriendo puedes probar los endpoints directamente en el navegado
 
 ---
 
-## ⚠️ Problemas encontrados durante el desarrollo
+## Problemas encontrados durante el desarrollo
 
 - Las instrucciones iniciales generadas usaban el tema "Biblioteca" (Autor/Libro) en lugar del tema real del proyecto (Tienda/CD). Fue necesario adaptar todos los packages, nombres de clases y archivos SQL.
 - El package generado por Spring Initializr quedó como `com.musicgallery.musicgallery` al coincidir Group y Artifact, lo que generó confusión inicial. Se mantuvo así para no perder tiempo.
@@ -141,6 +141,6 @@ Con el backend corriendo puedes probar los endpoints directamente en el navegado
 
 ---
 
-## 👥 Autores
+## Autores
 
-Proyecto desarrollado por alumnos de 1º DAM — FP Dual NTT Data.
+Proyecto desarrollado para el reto Final de FP Dual en NTT Data.
