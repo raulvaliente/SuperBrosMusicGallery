@@ -1,28 +1,28 @@
 <div class="container">
-  <h2>Nueva tienda</h2>
+  <h2>Introduce una nueva tienda</h2>
 
   <form [formGroup]="form" (ngSubmit)="guardar()">
     <div class="campo">
       <label>Nombre</label>
-      <input formControlName="nombre" type="text" placeholder="Nombre de la tienda"/>
+      <input formControlName="nombre" type="text" placeholder="Nombre de la tienda" />
       @if (form.get('nombre')?.invalid && form.get('nombre')?.touched) {
-        <span class="error">Mínimo 3 caracteres</span>
+      <span class="error">Mínimo 3 caracteres</span>
       }
     </div>
 
     <div class="campo">
       <label>Dirección</label>
-      <input formControlName="direccion" type="text" placeholder="Dirección"/>
+      <input formControlName="direccion" type="text" placeholder="Dirección" />
       @if (form.get('direccion')?.invalid && form.get('direccion')?.touched) {
-        <span class="error">La dirección es obligatoria</span>
+      <span class="error">La dirección es obligatoria</span>
       }
     </div>
 
     <div class="campo">
       <label>Teléfono</label>
-      <input formControlName="telefono" type="text" placeholder="9 dígitos"/>
+      <input formControlName="telefono" type="text" placeholder="9 dígitos" />
       @if (form.get('telefono')?.invalid && form.get('telefono')?.touched) {
-        <span class="error">Introduce un teléfono válido de 9 dígitos</span>
+      <span class="error">Introduce un teléfono válido de 9 dígitos</span>
       }
     </div>
 
