@@ -1,0 +1,11 @@
+.container { max-width: 800px; margin: 2rem auto; padding: 0 1rem; }
+.header { margin-bottom: 1.5rem; }
+.header span { color: #888; font-size: 14px; }
+.cds-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; }
+.btn-nuevo { background: #534AB7; color: white; padding: 6px 14px; border-radius: 6px; text-decoration: none; }
+.lista { list-style: none; padding: 0; }
+.item { display: flex; justify-content: space-between; align-items: center; padding: 1rem; border: 1px solid #ddd; border-radius: 8px; margin-bottom: 10px; }
+.info { display: flex; flex-direction: column; gap: 4px; }
+.precio { font-weight: 500; font-size: 18px; color: #1D9E75; }
+.btn-volver { color: #534AB7; text-decoration: none; font-size: 14px; }
+.vacio { color: #888; }

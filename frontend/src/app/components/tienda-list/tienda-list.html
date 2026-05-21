@@ -1,1 +1,26 @@
-<p>tienda-list works!</p>
+<div class="container">
+  <div class="header">
+    <h2>Tiendas de música</h2>
+    <a routerLink="/tiendas/nueva" class="btn-nuevo">+ Nueva tienda</a>
+  </div>
+
+  @if (tiendas().length === 0) {
+    <p class="vacio">No hay tiendas registradas.</p>
+  }
+
+  <ul class="lista">
+    @for (tienda of tiendas(); track tienda.id) {
+      <li class="item">
+        <div class="info">
+          <strong>{{ tienda.nombre }}</strong>
+          <span>{{ tienda.direccion }}</span>
+          <span>{{ tienda.telefono }}</span>
+        </div>
+        <div class="acciones">
+          <a [routerLink]="['/tiendas', tienda.id]" class="btn-ver">Ver CDs</a>
+          <button (click)="eliminar(tienda.id!)" class="btn-eliminar">Eliminar</button>
+        </div>
+      </li>
+    }
+  </ul>
+</div>
