@@ -1,2 +1,2 @@
-# SuperBrosMusicGallery
-Un pequeño front/back para gestionar CD's
+# superbrosmusicgallery
+Pequeño proyecto sobre CD's y música.
