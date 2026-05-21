@@ -1,0 +1,9 @@
+.container { max-width: 500px; margin: 2rem auto; padding: 0 1rem; }
+.campo { display: flex; flex-direction: column; margin-bottom: 1rem; gap: 4px; }
+label { font-weight: 500; font-size: 14px; }
+input { padding: 8px 12px; border: 1px solid #ddd; border-radius: 6px; font-size: 14px; }
+.error { color: #E24B4A; font-size: 12px; }
+.botones { display: flex; gap: 10px; margin-top: 1.5rem; }
+.btn-guardar { background: #1D9E75; color: white; padding: 8px 20px; border: none; border-radius: 6px; cursor: pointer; }
+.btn-guardar:disabled { opacity: 0.5; cursor: not-allowed; }
+.btn-cancelar { padding: 8px 20px; border: 1px solid #ddd; border-radius: 6px; text-decoration: none; color: #444; }
