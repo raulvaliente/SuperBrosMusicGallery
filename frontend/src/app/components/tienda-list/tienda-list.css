@@ -1,0 +1,10 @@
+.container { max-width: 800px; margin: 2rem auto; padding: 0 1rem; }
+.header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; }
+.btn-nuevo { background: #1D9E75; color: white; padding: 8px 16px; border-radius: 6px; text-decoration: none; }
+.lista { list-style: none; padding: 0; }
+.item { display: flex; justify-content: space-between; align-items: center; padding: 1rem; border: 1px solid #ddd; border-radius: 8px; margin-bottom: 10px; }
+.info { display: flex; flex-direction: column; gap: 4px; }
+.acciones { display: flex; gap: 8px; }
+.btn-ver { background: #534AB7; color: white; padding: 6px 12px; border-radius: 6px; text-decoration: none; }
+.btn-eliminar { background: #E24B4A; color: white; padding: 6px 12px; border-radius: 6px; border: none; cursor: pointer; }
+.vacio { color: #888; }

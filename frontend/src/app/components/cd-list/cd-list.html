@@ -1,1 +1,27 @@
-<p>cd-list works!</p>
+<div class="container">
+  <div class="header">
+    <h2>Catálogo de CDs</h2>
+    <a routerLink="/cds/nuevo" class="btn-nuevo">+ Nuevo CD</a>
+  </div>
+
+  @if (cds().length === 0) {
+    <p class="vacio">No hay CDs registrados.</p>
+  }
+
+  <ul class="lista">
+    @for (cd of cds(); track cd.id) {
+      <li class="item">
+        <div class="info">
+          <strong>{{ cd.titulo }}</strong>
+          <span>{{ cd.artista }}</span>
+          <span>{{ cd.genero }} — {{ cd.anio }}</span>
+          <span class="tienda">{{ cd.tiendaNombre }}</span>
+        </div>
+        <div class="acciones">
+          <span class="precio">{{ cd.precio | number:'1.2-2' }} €</span>
+          <button (click)="eliminar(cd.id!)" class="btn-eliminar">Eliminar</button>
+        </div>
+      </li>
+    }
+  </ul>
+</div>

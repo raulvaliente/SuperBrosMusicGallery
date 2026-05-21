@@ -1,0 +1,5 @@
+nav { display: flex; justify-content: space-between; align-items: center; padding: 1rem 2rem; background: #534AB7; color: white; }
+.logo { font-weight: 500; font-size: 18px; }
+.links { display: flex; gap: 1.5rem; }
+.links a { color: white; text-decoration: none; font-size: 15px; opacity: 0.8; }
+.links a.activo { opacity: 1; font-weight: 500; border-bottom: 2px solid white; }
