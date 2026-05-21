@@ -8,8 +8,8 @@ import { Tienda } from '../../models/tienda.model';
   selector: 'app-tienda-list',
   standalone: true,
   imports: [CommonModule, RouterLink],
-  templateUrl: './tienda-list.component.html',
-  styleUrl: './tienda-list.component.css'
+  templateUrl: './tienda-list.html',
+  styleUrl: './tienda-list.css'
 })
 export class TiendaListComponent implements OnInit {
   tiendas = signal<Tienda[]>([]);

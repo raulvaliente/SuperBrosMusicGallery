@@ -10,8 +10,8 @@ import { Tienda } from '../../models/tienda.model';
   selector: 'app-cd-form',
   standalone: true,
   imports: [CommonModule, ReactiveFormsModule],
-  templateUrl: './cd-form.component.html',
-  styleUrl: './cd-form.component.css'
+  templateUrl: './cd-form.html',
+  styleUrl: './cd-form.css'
 })
 export class CdFormComponent implements OnInit {
   form: FormGroup;

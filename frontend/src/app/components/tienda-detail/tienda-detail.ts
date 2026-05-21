@@ -9,8 +9,8 @@ import { Cd } from '../../models/cd.model';
   selector: 'app-tienda-detail',
   standalone: true,
   imports: [CommonModule, RouterLink],
-  templateUrl: './tienda-detail.component.html',
-  styleUrl: './tienda-detail.component.css'
+  templateUrl: './tienda-detail.html',
+  styleUrl: './tienda-detail.css'
 })
 export class TiendaDetailComponent implements OnInit {
   tienda = signal<Tienda | null>(null);

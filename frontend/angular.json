@@ -18,7 +18,6 @@
           "options": {
             "browser": "src/main.ts",
             "tsConfig": "tsconfig.app.json",
-            "proxyConfig": "src/proxy.conf.json",
             "assets": [
               {
                 "glob": "**/*",
@@ -54,17 +53,17 @@
           "defaultConfiguration": "production"
         },
         "serve": {
-  "builder": "@angular/build:dev-server",
-  "configurations": {
-    "production": {
-      "buildTarget": "frontend:build:production"
-    },
-    "development": {
-      "buildTarget": "frontend:build:development"
-    }
-  },
-  "defaultConfiguration": "development"
-},
+          "builder": "@angular/build:dev-server",
+          "configurations": {
+            "production": {
+              "buildTarget": "frontend:build:production"
+            },
+            "development": {
+              "buildTarget": "frontend:build:development"
+            }
+          },
+          "defaultConfiguration": "development"
+        },
         "test": {
           "builder": "@angular/build:unit-test"
         }

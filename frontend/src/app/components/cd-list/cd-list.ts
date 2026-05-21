@@ -8,8 +8,8 @@ import { Cd } from '../../models/cd.model';
   selector: 'app-cd-list',
   standalone: true,
   imports: [CommonModule, RouterLink],
-  templateUrl: './cd-list.component.html',
-  styleUrl: './cd-list.component.css'
+  templateUrl: './cd-list.html',
+  styleUrl: './cd-list.css'
 })
 export class CdListComponent implements OnInit {
   cds = signal<Cd[]>([]);
