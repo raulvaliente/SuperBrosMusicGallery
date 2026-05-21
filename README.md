@@ -142,5 +142,9 @@ Con el backend corriendo puedes probar los endpoints directamente en el navegado
 ---
 
 ## Autores
+Juan Jesús Cruz Muñoz
+Javier Maján Jiménez
+Carlos Morales Ruiz
+Raúl Valiente Sánchez
 
 Proyecto desarrollado para el reto Final de FP Dual en NTT Data.
